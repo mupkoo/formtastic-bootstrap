@@ -115,7 +115,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.10"
   s.summary = "Formtastic form builder to generate Twitter Bootstrap-friendly markup."
 
-  s.add_runtime_dependency('formtastic-bootstrap', [">= 0"])
   s.add_runtime_dependency('formtastic', ["~> 2.2"])
   s.add_development_dependency('rspec')
   s.add_development_dependency('bundler')
