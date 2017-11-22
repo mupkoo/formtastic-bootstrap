@@ -117,10 +117,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('formtastic', ["~> 2.2"])
   s.add_development_dependency('rspec')
-  s.add_development_dependency('bundler')
-  s.add_development_dependency('jeweler')
-  s.add_development_dependency('rcov')
-  s.add_development_dependency('rspec_tag_matchers')
   s.add_development_dependency('ammeter')
   s.add_development_dependency('rspec-rails', ["~> 2.8.0"])
   s.add_development_dependency('bundler')
