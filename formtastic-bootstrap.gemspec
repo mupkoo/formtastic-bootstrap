@@ -115,52 +115,17 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.10"
   s.summary = "Formtastic form builder to generate Twitter Bootstrap-friendly markup."
 
-  if s.respond_to? :specification_version then
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<formtastic-bootstrap>, [">= 0"])
-      s.add_runtime_dependency(%q<formtastic>, ["~> 2.2"])
-      s.add_development_dependency(%q<rspec>, [">= 0"])
-      s.add_development_dependency(%q<bundler>, [">= 0"])
-      s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_development_dependency(%q<rcov>, [">= 0"])
-      s.add_development_dependency(%q<rspec_tag_matchers>, [">= 0"])
-      s.add_development_dependency(%q<ammeter>, [">= 0"])
-      s.add_development_dependency(%q<rspec-rails>, ["~> 2.8.0"])
-      s.add_development_dependency(%q<bundler>, [">= 0"])
-      s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_development_dependency(%q<rcov>, [">= 0"])
-      s.add_development_dependency(%q<rspec_tag_matchers>, [">= 0"])
-    else
-      s.add_dependency(%q<formtastic-bootstrap>, [">= 0"])
-      s.add_dependency(%q<formtastic>, ["~> 2.2"])
-      s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<bundler>, [">= 0"])
-      s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<rcov>, [">= 0"])
-      s.add_dependency(%q<rspec_tag_matchers>, [">= 0"])
-      s.add_dependency(%q<ammeter>, [">= 0"])
-      s.add_dependency(%q<rspec-rails>, ["~> 2.8.0"])
-      s.add_dependency(%q<bundler>, [">= 0"])
-      s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<rcov>, [">= 0"])
-      s.add_dependency(%q<rspec_tag_matchers>, [">= 0"])
-    end
-  else
-    s.add_dependency(%q<formtastic-bootstrap>, [">= 0"])
-    s.add_dependency(%q<formtastic>, ["~> 2.2"])
-    s.add_dependency(%q<rspec>, [">= 0"])
-    s.add_dependency(%q<bundler>, [">= 0"])
-    s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<rcov>, [">= 0"])
-    s.add_dependency(%q<rspec_tag_matchers>, [">= 0"])
-    s.add_dependency(%q<ammeter>, [">= 0"])
-    s.add_dependency(%q<rspec-rails>, ["~> 2.8.0"])
-    s.add_dependency(%q<bundler>, [">= 0"])
-    s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<rcov>, [">= 0"])
-    s.add_dependency(%q<rspec_tag_matchers>, [">= 0"])
-  end
+  s.add_runtime_dependency('formtastic-bootstrap', [">= 0"])
+  s.add_runtime_dependency('formtastic', ["~> 2.2"])
+  s.add_development_dependency('rspec')
+  s.add_development_dependency('bundler')
+  s.add_development_dependency('jeweler')
+  s.add_development_dependency('rcov')
+  s.add_development_dependency('rspec_tag_matchers')
+  s.add_development_dependency('ammeter')
+  s.add_development_dependency('rspec-rails', ["~> 2.8.0"])
+  s.add_development_dependency('bundler')
+  s.add_development_dependency('jeweler')
+  s.add_development_dependency('rcov')
+  s.add_development_dependency('rspec_tag_matchers')
 end
-
